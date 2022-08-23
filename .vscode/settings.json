@@ -1,0 +1,7 @@
+{
+    "sidekick.brokerPort": 7777,
+    "sidekick.authenticationUrl": "",
+    "sidekick.brokerUrl": "ws://127.0.0.1",
+    "sidekick.onPremEmail": "emindemo@gmail.com",
+    "sidekick.onPremToken": "my-token"
+}
