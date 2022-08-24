@@ -21,7 +21,7 @@
     Simple project to show how you can start using Sidekick Open Source in minutes
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore Sidekick »</strong></a>
-    <br />
+	    <a href="https://medium.com/runsidekick/sidekick-open-source-live-debugger-get-started-in-5-mins-efc0845a2288"><strong>Related Article »</strong></a>
     <br />
   </p>
 </div>
@@ -77,7 +77,8 @@ This is an end-to-end guide to show you how you can start using Sidekick Open So
   ```sh
   npm install npm@latest -g
   ```
-* Visual Studio Code
+* Visual Studio Code 
+(Note: Sidekick has many other clients. Check out our headless options if you don't want to install a new IDE : https://docs.runsidekick.com/headless/ )
 
 ### Installation
 
@@ -91,7 +92,7 @@ This is an end-to-end guide to show you how you can start using Sidekick Open So
     - App is ready
 
 #### Running Quickstart Project
-1. Clone the Sidekick repo
+1. Clone the Quickstar application repo
    ```sh
    git clone https://github.com/boroskoyo/sidekick-nodejs-quickstart.git
    ```
@@ -115,7 +116,7 @@ It is time to use a client to put tracepoints and collect data from Quickstart a
 
 3. .vscode folder in this repo should set the config for you. If you have any issues just check the instructions here: [https://docs.runsidekick.com/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings](https://docs.runsidekick.com/plugins/visual-studio-code-extension-python-and-node.js/self-hosted-settings)
 
-4. Right click on 8th line on app/routes/api.js and put your first tracepoint. Check docs for extra info: https://docs.runsidekick.com/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints
+4. Right click on 10th line on app/routes/index.js and put your first tracepoint. Check docs for extra info: https://docs.runsidekick.com/plugins/visual-studio-code-extension-python-and-node.js/tracepoints-and-logpoints
 
 5. Visit http://localhost:3000 and use Quickstart application.
 
