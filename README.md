@@ -81,8 +81,6 @@ This is an end-to-end guide to show you how you can start using Sidekick Open So
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 #### Running Sidekick with default settings
 1. Clone the Sidekick repo
    ```sh
@@ -121,7 +119,9 @@ It is time to use a client to put tracepoints and collect data from Quickstart a
 
 5. Visit http://localhost:3000 and use Quickstart application.
 
-6. Observe your collected trace events at VSCode Sidekick: Trace Events panel.
+6. Observe your collected trace events at VSCode Sidekick: Trace Events panel!
+
+Check out docs for more: https://docs.runsidekick.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
