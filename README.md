@@ -20,7 +20,7 @@
   <p align="center">
     Simple project to show how you can start using Sidekick Open Source in minutes
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore Sidekick »</strong></a>
+    <a href="https://github.com/runsidekick/sidekick"><strong>Explore Sidekick »</strong></a>
 	    <a href="https://medium.com/runsidekick/sidekick-open-source-live-debugger-get-started-in-5-mins-efc0845a2288"><strong>Related Article »</strong></a>
     <br />
   </p>
