@@ -1,23 +1,12 @@
+const SidekickDebugger = require('@runsidekick/sidekick-agent-nodejs');
 var express = require('express');
 var reload = require('reload');
 var app = express();
 var dataFile = require('./data/data.json');
 var io = require('socket.io')();
 
-
-/*
-Sidekick agent
-*/
-var sidekickDebugger = require('@runsidekick/sidekick-agent-nodejs');
-
-sidekickDebugger.start({
-  apiKey:"my-token", 
-  SIDEKICK_AGENT_APPLICATION_NAME: "sidekick-demo-app",
-  SIDEKICK_AGENT_LOG_LEVEL:"debug",
-  SIDEKICK_AGENT_BROKER_HOST: "ws://127.0.0.1",
-  brokerPort:7777,
-  applicationVersion:"1.0",
-  applicationStage :"lab"
+SidekickDebugger.start({ 
+    apiKey: process.env.SIDEKICK_APIKEY
 });
 
 
