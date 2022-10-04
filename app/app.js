@@ -1,4 +1,6 @@
 const SidekickDebugger = require('@runsidekick/sidekick-agent-nodejs');
+require('dotenv').config();
+
 var express = require('express');
 var reload = require('reload');
 var app = express();
@@ -6,9 +8,8 @@ var dataFile = require('./data/data.json');
 var io = require('socket.io')();
 
 SidekickDebugger.start({ 
-    apiKey: process.env.SIDEKICK_APIKEY
+  apiKey: process.env.SIDEKICK_APIKEY
 });
-
 
 app.set('port', process.env.PORT || 3000);
 app.set('appData', dataFile);
