@@ -16,6 +16,8 @@ router.get('/speakers', function(req, res) {
     speakers: pageSpeakers,
     pageID: 'speakerList'
   });
+  throw new Error('Throw makes it go boom!')
+
 });
 
 router.get('/speakers/:speakerid', function(req, res) {
