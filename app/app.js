@@ -11,11 +11,11 @@ Sidekick agent
 var sidekickDebugger = require('@runsidekick/sidekick-agent-nodejs');
 
 sidekickDebugger.start({
-  apiKey:"my-token", 
+  apiKey:"my-token",
   SIDEKICK_AGENT_APPLICATION_NAME: "sidekick-demo-app",
   SIDEKICK_AGENT_LOG_LEVEL:"debug",
-  SIDEKICK_AGENT_BROKER_HOST: "ws://127.0.0.1",
-  brokerPort:7777,
+  SIDEKICK_AGENT_BROKER_HOST: "ws://127.0.0.1", /* not needed when using Sidekick Cloud */
+  brokerPort:7777, /* not needed when using Sidekick Cloud */
   applicationVersion:"1.0",
   applicationStage :"lab"
 });
