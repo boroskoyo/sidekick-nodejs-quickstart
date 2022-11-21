@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "@bahmutov/cy-api": "^2.2.1",
-    "cypress": "^11.0.0"
+    "cypress": "^11.1.0"
   }
 }

@@ -11,7 +11,7 @@ Sidekick agent
 var sidekickDebugger = require('@runsidekick/sidekick-agent-nodejs');
 
 sidekickDebugger.start({
-  apiKey:"da259aec-f624-4d59-b2b1-5fe314ec36d6", 
+  apiKey:"dceec4b5-90ac-438c-bc81-c7fe1b0b8ed2", 
   SIDEKICK_AGENT_APPLICATION_NAME: "sidekick-demo-app",
   brokerHost: "wss://broker.service.runsidekick.me",
   applicationVersion:"1.0",
